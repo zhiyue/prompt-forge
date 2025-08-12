@@ -3,6 +3,10 @@
 ## 📌 概述
 这是一份强调渐进式开发、小步快跑的 Claude Code 配置文件，源自 Chris Dzombak 的最佳实践文章。
 
+📄 **可用版本**：
+- [CLAUDE.md](./CLAUDE.md) - 英文原版
+- [CLAUDE-zh.md](./CLAUDE-zh.md) - 中文翻译版
+
 ## 🎯 适用场景
 - 复杂功能的逐步实现
 - 需要频繁测试和验证的项目
@@ -55,9 +59,17 @@ Stage 3: 优化和重构 ✓
 ```
 
 ## 🔧 使用方法
+
+### 英文版
 ```bash
 # 将配置文件复制到项目根目录
 cp "claude code/incremental-dev/CLAUDE.md" ./CLAUDE.md
+```
+
+### 中文版
+```bash
+# 使用中文版配置
+cp "claude code/incremental-dev/CLAUDE-zh.md" ./CLAUDE.md
 ```
 
 ## 📚 原始来源

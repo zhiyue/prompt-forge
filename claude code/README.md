@@ -8,9 +8,9 @@
 
 ## 配置索引
 
-| 配置名称 | 简介 | 适用场景 | ⭐ 推荐度 |
-|---------|------|---------|----------|
-| [incremental-dev](./incremental-dev/) | 增量开发实践指南 | 复杂功能实现、团队协作、重构项目 | ⭐⭐⭐⭐⭐ |
+| 配置名称 | 简介 | 适用场景 | 版本 | ⭐ 推荐度 |
+|---------|------|---------|------|----------|
+| [incremental-dev](./incremental-dev/) | 增量开发实践指南 | 复杂功能实现、团队协作、重构项目 | EN/中文 | ⭐⭐⭐⭐⭐ |
 
 ## 快速开始
 
@@ -32,7 +32,8 @@ cp "claude code/incremental-dev/CLAUDE.md" ./CLAUDE.md
 claude code/
 ├── README.md                    # 本索引文件
 ├── incremental-dev/             # 增量开发实践
-│   ├── CLAUDE.md               # 配置文件
+│   ├── CLAUDE.md               # 英文配置文件
+│   ├── CLAUDE-zh.md            # 中文配置文件
 │   └── README.md               # 详细介绍
 └── [更多配置待添加...]
 ```
